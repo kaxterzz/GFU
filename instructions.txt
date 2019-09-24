@@ -1,0 +1,7 @@
+prerequisites
+    node.js 
+
+1. open project path in a cmd -> npm install
+2. go to configs/keys.js then change -> clientID, clientSecret
+3. When creating google api key create it as a web then add this for callback url "http://localhost:3000/auth/google/callback"
+4. run application -> npm run dev
