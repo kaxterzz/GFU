@@ -22,8 +22,8 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <div class="d-flex align-self-center">
+            <div class="d-flex justify-content-center">
+                <div class="">
                     {% if (file == "uploaded") %}
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                         <strong>Done !</strong> File successfully uploaded !
@@ -32,7 +32,7 @@
                         </button>
                     </div>
                     {% elif (file == "notuploaded") %}
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
                         <strong>Oops !</strong> File failed to upload please try again !
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -40,7 +40,7 @@
                     </div>
                     {% endif %}
                 </div>
-                <div class="d-flex align-self-center">
+                <div class="">
                     <div class="card w-75">
                         <div class="card-body">
                             <h5 class="card-title">Add File</h5>
